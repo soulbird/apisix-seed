@@ -16,7 +16,7 @@ etcd:
 discovery:                       # service discovery center
   nacos:
     host:                        # it's possible to define multiple nacos hosts addresses of the same nacos cluster.
-      - "http://nacos_no_auth:8848"
+      - "http://172.50.238.30:8848"
     prefix: /nacos
     weight: 100                  # default weight for node
     timeout:
